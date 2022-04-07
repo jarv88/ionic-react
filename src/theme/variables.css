@@ -239,8 +239,18 @@ http://ionicframework.com/docs/theming/ */
   padding: 10px 5px;
   font-size: 18px;
 }
-.table ion-row:nth-child(even) {background: #CCC}
-.table ion-row:nth-child(odd) {background: #FFF}
+.table ion-row:nth-child(even) {
+  background: #CCC
+}
+.table ion-row:nth-child(odd) {
+  background: #FFF
+}
+.table ion-row:first-child{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
 
 .botones{
   display: inline-block;

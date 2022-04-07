@@ -1,5 +1,5 @@
 import { IonButton, IonButtons, IonCard, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonMenuButton, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import { add } from 'ionicons/icons';
+import { add, pencil } from 'ionicons/icons';
 import { useParams } from 'react-router';
 import ExploreContainer from '../components/ExploreContainer';
 import './Page.css';
@@ -52,7 +52,7 @@ const Articulos: React.FC = () => {
              <IonCol>Articulo de prueba 1</IonCol>
              <IonCol>10</IonCol>
              <IonCol>5</IonCol>
-             <IonCol>Editar | Eliminar</IonCol>
+             <IonCol><IonButton color="primary" fill='clear'><IonIcon icon={pencil}/></IonButton></IonCol>
            </IonRow>
      
            <IonRow>
@@ -61,7 +61,7 @@ const Articulos: React.FC = () => {
              <IonCol>Articulo de prueba 2</IonCol>
              <IonCol>3</IonCol>
              <IonCol>1</IonCol>
-             <IonCol>Editar | Eliminar</IonCol>
+             <IonCol><IonButton color="primary" fill='solid'><IonIcon icon={pencil}/></IonButton></IonCol>
            </IonRow>
      
           
