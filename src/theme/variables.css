@@ -262,3 +262,13 @@ http://ionicframework.com/docs/theming/ */
   display: inline-block;
   
 }
+
+.card{
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+#boton{
+  margin: 15px;
+
+}
