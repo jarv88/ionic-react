@@ -1,7 +1,8 @@
 import { IonButton, IonButtons, IonCard, IonContent, IonHeader, IonIcon, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { useParams } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer'; // ../../ para subcarpetas
-import './Page.css';
+import ExploreContainer from '../../components/ExploreContainer'; // ../../ para subcarpetas
+import '../Page.css';
+
 import { IonGrid, IonRow, IonCol } from '@ionic/react';
 import { add, close, pencil } from 'ionicons/icons';
 import { useEffect, useState } from 'react';

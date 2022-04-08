@@ -22,8 +22,8 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import Clientes from './pages/Clientes';
-import Articulos from './pages/Articulos';
+import Clientes from './pages/clientes/ClientesList';
+import Articulos from './pages/articulos/Articulos';
 
 setupIonicReact();
 

@@ -1,8 +1,8 @@
 import { IonButton, IonButtons, IonCard, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonMenuButton, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import { add, pencil } from 'ionicons/icons';
 import { useParams } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer';
-import './Page.css';
+import ExploreContainer from '../../components/ExploreContainer';
+import '../Page.css';
 
 const Articulos: React.FC = () => {
 
